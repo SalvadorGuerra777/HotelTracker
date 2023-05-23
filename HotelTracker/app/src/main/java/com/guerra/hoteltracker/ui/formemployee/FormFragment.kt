@@ -45,6 +45,7 @@ class FormFragment : Fragment() {
     private fun setViewModel(){
         binding.viewmodel = employeeViewModel
     }
+    //el binding se encarga de trasladar la data nueva al ViewModel
     private fun sentStatus(){
         employeeViewModel.status.observe(viewLifecycleOwner){
             when{
@@ -59,6 +60,7 @@ class FormFragment : Fragment() {
                     employeeViewModel.clearStatus()
                     findNavController().popBackStack()
                 }
+                //Administracion de estados de informacion que indican de que manera se encuentra la aplicacion en ese momento
             }
         }
     }

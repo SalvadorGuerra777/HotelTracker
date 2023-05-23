@@ -21,7 +21,7 @@ class ItemEmployeeFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
-
+//Biding se encarga de crear el nuevo componente a partir de uno ya creado y lo implementa a la vista general
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

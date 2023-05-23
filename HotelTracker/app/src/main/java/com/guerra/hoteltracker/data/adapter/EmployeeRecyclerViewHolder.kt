@@ -17,4 +17,5 @@ class EmployeeRecyclerViewHolder(private val binding: FragmentItemEmployeeBindin
             clickListener(employee)
         }
     }
+    //Si se clickea la carta, se muestra la informacion de esta
 }

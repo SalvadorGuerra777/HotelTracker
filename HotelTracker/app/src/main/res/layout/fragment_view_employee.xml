@@ -13,7 +13,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/primary"
+        android:background="@color/buttonColor"
         tools:context=".ui.viewEmployee.ViewEmployeeFragment">
 
 
@@ -22,7 +22,7 @@
             android:layout_width="@dimen/doble_xl_gap"
             android:layout_height="@dimen/doble_xl_gap"
             android:layout_marginTop="@dimen/md_gap"
-            android:contentDescription="Descripcion del usuario"
+            android:contentDescription="@string/descripcion_del_usuario"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"

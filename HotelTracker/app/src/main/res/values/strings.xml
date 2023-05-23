@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HotelTracker</string>
+    <string name="descripcion_del_usuario">Descripcion del usuario</string>
 </resources>

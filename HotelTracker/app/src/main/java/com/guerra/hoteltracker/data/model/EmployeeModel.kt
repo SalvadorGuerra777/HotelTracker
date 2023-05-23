@@ -7,3 +7,5 @@ data class EmployeeModel(
     val description: String,
 
     )
+
+//Modelo adecuado para la data a ocupar

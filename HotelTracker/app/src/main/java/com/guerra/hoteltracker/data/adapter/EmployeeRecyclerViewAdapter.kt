@@ -10,11 +10,13 @@ class EmployeeRecyclerViewAdapter(
     private val clickListener: (EmployeeModel) -> Unit
 ): RecyclerView.Adapter<EmployeeRecyclerViewHolder>() {
     private val employees = ArrayList<EmployeeModel>()
+    //llenamos la lista con los datos que vienen del modelo
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EmployeeRecyclerViewHolder {
         val binding = FragmentItemEmployeeBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return EmployeeRecyclerViewHolder(binding)
     }
+    //Se crean las vistas con los datos anteriormente recibidos
 
     override fun getItemCount() = employees.size
 

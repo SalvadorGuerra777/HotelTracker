@@ -17,3 +17,4 @@ var employees = mutableListOf(
     EmployeeModel( name2, lastName2, email2, description2),
     EmployeeModel( name2, lastName, email2, description)
 )
+//Data quemada y estatica que nos sirve para el ejemplo
